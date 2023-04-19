@@ -1,0 +1,107 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px;
+    border-style: solid;
+}
+
+.navigation__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 80%;
+    justify-content: space-around;
+    font-size: 30px;
+    border: 2px;
+
+}
+
+.navigation__item {
+    display: flex;
+    justify-content: center;
+
+}
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px;
+    border-style: solid;
+}
+.card__header{
+    display: flex;
+    justify-content: center;
+}
+
+.card__parrafo {
+    font-size: 28px;
+    width: 300px;
+}
+
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding-bottom: 200px;
+    width: 400px;
+    margin-top: 20px;
+}
+.form__where {
+    display: flex;
+    flex-direction: row;
+}
+.form__from {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+}
+.form__to{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+
+}
+.form__label-left {
+    display: flex;
+    flex-direction: row;
+}
+
+.form__input {
+    display: flex;
+}
+
+.form__input-smaller {
+    width: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form__howMany {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.form__btn {
+    margin: 30px;
+    width: 100px;
+}
